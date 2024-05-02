@@ -1,0 +1,97 @@
+/* Styles for all pages */
+body {
+    background-color: #B4BDFF;
+    color: #40679E;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #1B3C73;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+nav.flex-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #1B3C73;
+    padding: 10px;
+}
+
+nav.flex-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav.flex-menu a:hover {
+    background-color: #2E5A9B;
+}
+
+/* Styles specific to the home page */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-section h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+.small-gif {
+    width: 30%;
+    max-width: 100%;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.jpg {
+    width: 20%;
+    max-width: 100%;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+section.home-section h1,
+section.home-section p,
+section.home-section aside {
+    flex: 1;
+}
+
+footer {
+    background-color: #1B3C73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1B3C73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.cars-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Distribute items with space around them */
+    align-items: center; /* Align items vertically */
+}
+
+.car {
+    text-align: center; /* Center align content */
+    margin: 0 10px; /* Add some margin between cars */
+    flex: 1; /* Each car takes equal space */
+}
+
+/* Optional: Set max-width for images to control their size */
+.jpg {
+    max-width: 100px; /* Adjust size as needed */
+}
